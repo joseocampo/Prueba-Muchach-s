@@ -28,9 +28,9 @@ public class PruebaInge2 {
         String algo;
         algo = JOptionPane.showInputDialog("Ingresa algo puto");
         
-        System.out.println("Didier se la come con limon");
+        System.out.println("TEXTO INGRESADO: "+algo);
         
-        x=sumar(2,3);
+        System.out.println("MOISO SE COME: "+sumar(9,9)+" PULGADAS");
     }
 
 }

@@ -5,6 +5,8 @@
  */
 package pruebainge2;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Jose Ocampo
@@ -18,6 +20,8 @@ public class PruebaInge2 {
         System.out.println("Esto es una prueba para ver si sirve esta vara :'v");
         System.out.println("x2");
 
+        
+        JOptionPane.showMessageDialog(null, "Esto es una prueba");
     }
 
 }

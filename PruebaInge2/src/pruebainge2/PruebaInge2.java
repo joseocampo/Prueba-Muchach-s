@@ -5,6 +5,7 @@
  */
 package pruebainge2;
 
+import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 /**
@@ -22,6 +23,9 @@ public class PruebaInge2 {
 
         
         JOptionPane.showMessageDialog(null, "Esto es una prueba");
+        
+        String algo;
+        algo = JOptionPane.showInputDialog("Ingresa algo puto");
     }
 
 }

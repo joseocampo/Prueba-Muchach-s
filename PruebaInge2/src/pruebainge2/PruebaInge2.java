@@ -14,13 +14,14 @@ import javax.swing.JOptionPane;
  */
 public class PruebaInge2 {
 
-    /**
-     * @param args the command line arguments
-     */
+    static int sumar(int a, int b){
+        return a+b;
+        
+    }
     public static void main(String[] args) {
         System.out.println("Esto es una prueba para ver si sirve esta vara :'v");
         System.out.println("x2");
-
+        int x;
         
         JOptionPane.showMessageDialog(null, "Esto es una prueba");
         
@@ -28,6 +29,8 @@ public class PruebaInge2 {
         algo = JOptionPane.showInputDialog("Ingresa algo puto");
         
         System.out.println("Didier se la come con limon");
+        
+        x=sumar(2,3);
     }
 
 }

@@ -26,6 +26,8 @@ public class PruebaInge2 {
         
         String algo;
         algo = JOptionPane.showInputDialog("Ingresa algo puto");
+        
+        System.out.println("Didier se la come con limon");
     }
 
 }

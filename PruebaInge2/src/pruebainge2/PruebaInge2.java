@@ -21,7 +21,7 @@ public class PruebaInge2 {
     public static void main(String[] args) {
         System.out.println("Esto es una prueba para ver si sirve esta vara :'v");
         System.out.println("x2");
-        int x;
+       int x;
         
         JOptionPane.showMessageDialog(null, "Esto es una prueba");
         

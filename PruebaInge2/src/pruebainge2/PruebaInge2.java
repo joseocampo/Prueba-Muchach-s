@@ -13,6 +13,25 @@ import javax.swing.JOptionPane;
  * @author Jose Ocampo
  */
 public class PruebaInge2 {
+    
+    static void jugar(){
+        int flag = 10;
+        int[][] matriz = new int[flag][flag];        
+        
+        for (int i = 0; i<flag; i++){
+           for(int j = 0; j < flag; j++){
+              matriz[i][j] = i*j;
+           }
+        }
+        
+        for (int i = 0; i < flag; i++){		
+            for (int j = 0; j < flag; j++){	
+                System.out.print(matriz[i][j]+",");
+                
+            }
+            System.out.println("\n");
+        }
+    }
 
     static int sumar(int a, int b){
         return a+b;
@@ -31,6 +50,8 @@ public class PruebaInge2 {
         System.out.println("TEXTO INGRESADO: "+algo);
         
         System.out.println("MOISO SE COME: "+sumar(9,9)+" PULGADAS");
+        
+        jugar();
     }
 
 }
